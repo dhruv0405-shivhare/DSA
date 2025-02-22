@@ -16,11 +16,16 @@ void bubble (int a[] , int s)
             }
         }
     }
+    for(int i=0 ; i<s ; i++)
+    {
+        cout<<a[i]<<"\t";
+    }
 }
 
 int main ()
 {
     int arr[] = {11,99,85,54,10};
-
+    int s = sizeof(arr)/sizeof(arr[0]);
+    bubble (arr,s)
 
 }
