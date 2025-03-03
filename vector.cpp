@@ -29,7 +29,7 @@ int main()
     cin>>n;
     for(int i = 1 ; i <= n ; i++)
     {
-        cout << "enter value \t";
+        cout << "enter value \t"; 
         cin >> a;
         vec.push_back(a);
     }
